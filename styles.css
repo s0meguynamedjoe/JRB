@@ -668,6 +668,13 @@ img {
   font-size: 2rem;
 }
 
+.hockey-puck svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+  fill: currentColor;
+}
+
 .involvement-list h2 {
   margin: 7px 0;
   font-family: var(--serif);
@@ -786,14 +793,23 @@ img {
 
   .site-header {
     min-height: 72px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
   }
 
   .menu-toggle {
     display: block;
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
   }
 
   .theme-toggle {
-    margin-left: 8px;
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    margin-right: 46px;
+    margin-left: 0;
   }
 
   .site-nav {
