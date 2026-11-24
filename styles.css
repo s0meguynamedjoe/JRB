@@ -711,6 +711,10 @@ img {
   color: var(--accent-pale);
 }
 
+.resume-section-label {
+  margin-top: 40px;
+}
+
 .resume-entry {
   display: flex;
   justify-content: space-between;
