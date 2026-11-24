@@ -42,6 +42,31 @@ body.light-theme {
   --accent-pale: #4f2c1d;
 }
 
+body.light-theme .button-primary {
+  background: var(--brown);
+  border-color: var(--brown);
+  color: #fd5000;
+}
+
+body.light-theme .button-primary:hover {
+  background: transparent;
+  color: var(--brown);
+  border-color: var(--brown);
+}
+
+body.light-theme .feature-card:nth-child(2) {
+  background: var(--brown);
+  border-color: var(--brown);
+  color: #fd5000;
+}
+
+body.light-theme .feature-card:nth-child(2) p,
+body.light-theme .feature-card:nth-child(2) .card-index,
+body.light-theme .feature-card:nth-child(2) .card-arrow {
+  color: #fd5000;
+  opacity: 0.9;
+}
+
 a {
   color: inherit;
   text-decoration-thickness: 1px;
@@ -313,16 +338,6 @@ img {
   filter: brightness(1.08);
 }
 
-body.light-theme .feature-card:nth-child(2) {
-  color: #eeeae1;
-}
-
-body.light-theme .feature-card:nth-child(2) p,
-body.light-theme .feature-card:nth-child(2) .card-index,
-body.light-theme .feature-card:nth-child(2) .card-arrow {
-  color: #eeeae1;
-  opacity: 0.82;
-}
 
 .feature-card h2 {
   margin: 0 0 10px;
