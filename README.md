@@ -12,6 +12,12 @@ python -m http.server 8000
 
 Then open `http://localhost:8000`.
 
+## Branch workflow
+
+- `main` is the production branch used for the live website.
+- `development` is a local-only branch for experiments and is not published.
+- Preview changes on `development` with the local server above. When they are ready, merge them into `main` and push `main` to publish.
+
 ## GitHub Pages
 
 This repository can be published as a project site at:
